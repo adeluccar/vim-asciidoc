@@ -19,7 +19,7 @@ NOTE: Create this directory if it doesn't already exist.
 
 You can enable syntax highlighing in one of the following ways:
 
-. Put a Vim _autocmd_ in your Vim configuration file
+. Put a Vim _autocmd_ in your Vim configuration file `autocmd BufRead,BufNewFile *.adoc set syntax=asciidoc`
 . Execute the Vim command `:set syntax=asciidoc`
 . Add the following line to the end of you AsciiDoc source files:
 
